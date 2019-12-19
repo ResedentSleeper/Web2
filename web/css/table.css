@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid white !important; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    width: 80%; /* Ширина таблицы */
+    text-align: center;
+    color: white !important;
+}
+
+td {
+    background: gray !important; /* Цвет фона */
+    border: 1px solid #333; /* Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */
+    color: white !important;
+    opacity: 0.8; /* Полупрозрачность таблицы */
+}
+
+.trans {
+    opacity: 1; /* Непрозрачность ячеек */
+}
+
+.param {
+    text-align: right;
+}
+
+.empty {
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid white !important; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    width: 80%; /* Ширина таблицы */
+    text-align: center;
+    color: white !important;
+}
